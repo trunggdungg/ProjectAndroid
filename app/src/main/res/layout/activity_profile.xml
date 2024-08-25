@@ -547,7 +547,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical"
-                        android:background="@drawable/tl30tr30b23374a"
+                        android:background="@drawable/background_down"
                         android:paddingVertical="15dp"
                         android:paddingHorizontal="17dp"
                         android:clipChildren="false"
