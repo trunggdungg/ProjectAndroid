@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">ProjectAndroid</string>
-
-
     <string name="menu_icon">Menu Icon</string>
     <string name="cart_icon">Cart Icon</string>
     <string name="category_image">Category Image</string>
@@ -9,6 +7,5 @@
     <string name="shop_now">Shop Now</string>
     <string name="best_sellers">Best sellers</string>
     <string name="view_all">view all</string>
-
-
+    <string name="test">Test String</string>
 </resources>
