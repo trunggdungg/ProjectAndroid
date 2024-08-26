@@ -245,5 +245,49 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="28dp" />
 
+    <LinearLayout
+        android:id="@+id/socialMediaLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="593dp"
+        android:layout_marginBottom="98dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivFacebook"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/oval"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo_facebook" />
+
+        <ImageView
+            android:id="@+id/ivGoogle"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/oval"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo_google" />
+
+        <ImageView
+            android:id="@+id/ivApple"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/oval"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo_apple" />
+
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
