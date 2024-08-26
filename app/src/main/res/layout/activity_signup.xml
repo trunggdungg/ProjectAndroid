@@ -198,14 +198,16 @@
             android:id="@+id/confirmPassword"
             android:layout_width="354dp"
             android:layout_height="43dp"
+            android:layout_marginStart="11dp"
             android:backgroundTint="@color/white"
             android:hint="ConfirmPassword"
             android:inputType="textPassword"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="35dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivConfirmPasswordIcon"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
