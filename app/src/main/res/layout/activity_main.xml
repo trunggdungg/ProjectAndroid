@@ -31,7 +31,7 @@
                     android:id="@+id/r6ckj8c0m7qf"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/s5e27fdsw1beeeeee"
+
                     android:paddingTop="5dp"
                     android:paddingBottom="75dp"
                     android:orientation="vertical">
@@ -100,7 +100,7 @@
                         android:id="@+id/ry6l3l54gzkn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/s5e27fdsw1"
+
                         android:paddingTop="219dp"
                         android:paddingBottom="12dp"
                         android:paddingHorizontal="6dp"
@@ -538,7 +538,7 @@
             android:layout_alignParentBottom="true"
             android:layout_width="match_parent"
             android:layout_height="46dp"
-            android:background="@drawable/s5e27fdsw1beeeeee"
+
             android:paddingHorizontal="21dp"
             android:orientation="vertical">
             <LinearLayout
