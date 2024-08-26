@@ -12,54 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectAndroid"
         tools:targetApi="31">
+
         <activity
             android:name=".Signup"
             android:exported="false" />
-        <activity
-            android:name=".login"
-            android:exported="false" />
-        <activity
-            android:name=".sign_up"
-            android:exported="false" />
-        <activity
-            android:name=".wish_list"
-            android:exported="false" />
-        <activity
-            android:name=".sign_out"
-            android:exported="false" />
-        <activity
-            android:name=".verify_email"
-            android:exported="false" />
-        <activity
-            android:name=".sereach"
-            android:exported="false" />
-        <activity
-            android:name=".fillter"
-            android:exported="false" />
-        <activity
-            android:name=".wishlist_empty"
-            android:exported="false" />
-        <activity
-            android:name=".verify_phone"
-            android:exported="false" />
-        <activity
-            android:name=".oder_person"
-            android:exported="false" />
-        <activity
-            android:name=".info_persom"
-            android:exported="false" />
-        <activity
-            android:name=".profile"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="false" />
+
+        <activity
+            android:name=".login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>
