@@ -26,6 +26,10 @@ public class createDatabase extends SQLiteOpenHelper {
             db.execSQL("CREATE TABLE " + TABLE_NAME + " (" + COL_1 + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
                     COL_2 + " TEXT, " + COL_3 + " TEXT)");
             Log.d(TAG, "Tạo bảng thành công");
+            // Chèn dữ liệu mẫu
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COL_2 + ", " + COL_3 + ") VALUES ('testuser', 'testpassword')");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COL_2 + ", " + COL_3 + ") VALUES ('admin', 'admin123')");
+            Log.d(TAG, "Chèn dữ liệu mẫu thành công");
         } catch (Exception e) {
             Log.e(TAG, "Lỗi khi tạo bảng: " + e.getMessage());
         }

@@ -19,7 +19,7 @@ import com.example.projectandroid.R;
 import com.example.projectandroid.database.createDatabase;
 
 
-public class MainActivity extends AppCompatActivity {
+public class login extends AppCompatActivity {
     EditText user, psw;
     Button login;
     UserDao userDao;
@@ -50,9 +50,9 @@ public class MainActivity extends AppCompatActivity {
                 String username = user.getText().toString();
                 String password = psw.getText().toString();
                 if (userDao.checkUser(username, password)) {
-                    Toast.makeText(MainActivity.this, "Đăng nhập thành công", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(login.this, "Đăng nhập thành công", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(MainActivity.this, "Đăng nhập thất bại. Sai tên đăng nhập hoặc mật khẩu.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(login.this, "Đăng nhập thất bại. Sai tên đăng nhập hoặc mật khẩu.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Signup.class);
+                Intent intent = new Intent(login.this, Signup.class);
                 startActivity(intent);
             }
         });
