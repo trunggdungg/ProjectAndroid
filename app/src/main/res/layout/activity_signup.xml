@@ -12,11 +12,14 @@
         android:id="@+id/btnBack"
         android:layout_width="31dp"
         android:layout_height="25dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="703dp"
         android:background="@android:color/transparent"
         android:src="@drawable/baseline_arrow_back_24"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="3dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp" />
 
     <TextView
         android:id="@+id/tvHelp"
@@ -211,13 +214,14 @@
         android:layout_width="379dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="499dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="#603E94"
         android:text="Sign Up"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="499dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tvSignIn"
@@ -240,7 +244,6 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="28dp" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
