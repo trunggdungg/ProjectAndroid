@@ -66,9 +66,7 @@
             android:padding="16dp">
 
             <!-- Included Layouts for Plant Items -->
-            <include layout="@layout/activity_item_plant" />
-            <include layout="@layout/activity_item_plant" />
-            <include layout="@layout/activity_item_plant" />
+
 
             <!-- Voucher Input -->
             <EditText
