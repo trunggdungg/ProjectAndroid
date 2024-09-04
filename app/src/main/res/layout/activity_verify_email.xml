@@ -40,7 +40,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="email"
-            android:text="oliviabennett@mail.com"
+            android:text="TQT@mail.com"
+            android:textColor="#B5B3B3"
             android:inputType="textEmailAddress"/>
 
     </com.google.android.material.textfield.TextInputLayout>

@@ -79,7 +79,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter the voucher"
-            android:text="Promocodes 2024" />
+            android:text="Promocodes 2024"
+            android:textColor="#B5B3B3"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 

@@ -64,7 +64,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Olivia Bennett"/>
+            android:text="Name"
+            android:textColor="#B5B3B3"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -96,7 +97,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="phone"
-            android:text="+17123456789"/>
+            android:text="+17123456789"
+            android:textColor="#B5B3B3"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -111,7 +113,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Chicago, USA"/>
+            android:text="Chicago, USA"
+            android:textColor="#B5B3B3"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
