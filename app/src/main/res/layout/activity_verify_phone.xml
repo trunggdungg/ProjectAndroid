@@ -39,7 +39,7 @@
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="16dp"
         android:text="We have sent you an SMS with a code to number: +17 0123456789."
-        android:textColor="#808080"
+        android:textColor="#99AAB0"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,7 +60,8 @@
             android:layout_height="wrap_content"
             android:hint="phone number"
             android:inputType="phone"
-            android:text="+17123456789" />
+            android:text="+17123456789"
+            android:textColor="#808080"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
