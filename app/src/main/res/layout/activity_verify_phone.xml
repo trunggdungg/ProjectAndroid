@@ -61,7 +61,7 @@
             android:hint="phone number"
             android:inputType="phone"
             android:text="+17123456789"
-            android:textColor="#808080"/>
+            android:textColor="#B5B3B3"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
