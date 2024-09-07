@@ -67,7 +67,7 @@
 
     <LinearLayout
         android:id="@+id/categoryLayout"
-        android:layout_width="434dp"
+        android:layout_width="436dp"
         android:layout_height="160dp"
         android:orientation="horizontal"
         android:weightSum="4"
